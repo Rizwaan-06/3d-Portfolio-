@@ -5,32 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "BabaFly",
+    category: "Elevated Excellence in Private Aviation",
+    tools: "React, Node.js, Express, MongoDB, Tailwind CSS, JWT Auth, Vercel",
+    image: "/images/babafly.png",
+    link: "https://baba-fly.vercel.app/",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "SR UniTransit",
+    category: "Your Campus, Connected — Smart Bus Transit System",
+    tools: "React, Node.js, Express, MongoDB, Live Tracking, Route Management, REST APIs",
+    image: "/images/unitransit.png",
+    link: "https://github.com/Rizwaan-06/University-Bus-Transport-",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "Smart Dialer ML",
+    category: "Live Mission Control & Compliance Dashboard",
+    tools: "Python, FastAPI, Predictive Pacing, Machine Learning, Telecom Compliance",
+    image: "/images/smart_dialer.png",
+    link: "https://github.com/Rizwaan-06/smart-dialer-ML-",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Tourism Storytelling Dashboard",
+    category: "Global Arrivals & COVID-19 Recovery Analytics Platform",
+    tools: "Python, Plotly Dash, Pandas, Plotly Express, Bootstrap, Predictive Modeling",
+    image: "/images/tourism.png",
+    link: "https://github.com/Rizwaan-06/Tourism-Growth-and-Storytelling-Dashboard",
   },
 ];
 
@@ -107,7 +107,7 @@ const Work = () => {
                           {project.category}
                         </p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
+                          <span className="tools-label">Tools &amp; Features</span>
                           <p>{project.tools}</p>
                         </div>
                       </div>
@@ -130,8 +130,9 @@ const Work = () => {
             {projects.map((_, index) => (
               <button
                 key={index}
-                className={`carousel-dot ${index === currentIndex ? "carousel-dot-active" : ""
-                  }`}
+                className={`carousel-dot ${
+                  index === currentIndex ? "carousel-dot-active" : ""
+                }`}
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
                 data-cursor="disable"
