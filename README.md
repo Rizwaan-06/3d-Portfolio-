@@ -19,10 +19,8 @@
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Preview</a> •
   <a href="#-features">Features</a> •
   <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-screenshots">Screenshots</a> •
   <a href="#-featured-projects">Projects</a> •
   <a href="#-getting-started">Get Started</a> •
   <a href="#-project-structure">Structure</a> •
@@ -113,37 +111,6 @@ An interactive slide-show of production applications with live demo links, techn
 | **Motion & Animation** | ![GSAP](https://img.shields.io/badge/GSAP_3-88CE02?style=flat-square&logo=greensock&logoColor=black) ![ScrollTrigger](https://img.shields.io/badge/ScrollTrigger-88CE02?style=flat-square) ![ScrollSmoother](https://img.shields.io/badge/ScrollSmoother-88CE02?style=flat-square) |
 | **UI Components & Icons** | ![React Icons](https://img.shields.io/badge/React_Icons-E91E63?style=flat-square) ![Fast Marquee](https://img.shields.io/badge/React_Fast_Marquee-00C49F?style=flat-square) ![Vercel Analytics](https://img.shields.io/badge/Vercel_Analytics-000000?style=flat-square&logo=vercel&logoColor=white) |
 | **Code Quality & Tooling** | ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![Oxlint](https://img.shields.io/badge/Oxlint-FF6B6B?style=flat-square) ![TypeScript Strict](https://img.shields.io/badge/TypeScript-Strict_Checking-3178C6?style=flat-square) |
-
-</div>
-
----
-
-## 📸 Screenshots
-
-<div align="center">
-
-### 🏠 Hero — 3D Character Landing Section
-<img src="public/images/preview1.png" alt="Hero & Landing Section" width="92%" />
-
-<br/><br/>
-
-### ✈️ Project — BabaFly Aircraft Charter Platform
-<img src="public/images/babafly.png" alt="BabaFly Project Preview" width="92%" />
-
-<br/><br/>
-
-### 🧠 Project — Smart Dialer ML Dashboard
-<img src="public/images/smart_dialer.png" alt="Smart Dialer ML Preview" width="92%" />
-
-<br/><br/>
-
-### 🚌 Project — SR UniTransit Campus Bus System
-<img src="public/images/unitransit.png" alt="UniTransit Preview" width="92%" />
-
-<br/><br/>
-
-### 🌍 Project — Tourism Storytelling Dashboard
-<img src="public/images/tourism.png" alt="Tourism Dashboard Preview" width="92%" />
 
 </div>
 
